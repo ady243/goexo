@@ -28,13 +28,71 @@
 
 // }
 
+// package main
+
+// import "fmt"
+
+// func main(){
+// 	var(
+// x int
+// y int
+// 	)
+// 	x = 7
+// 	y = 3
+// 	fmt.Println(x + y)
+// 	fmt.Println(x % y)
+
+// // Checking if x is not equal to y.
+
+// 	fmt.Println(x != y)
+
+// // Comparing the values of x and y and returning a boolean value.
+// 	fmt.Println(x < y)
+
+// 	// Comparing the values of x and y and returning a boolean value.
+// 	fmt.Println(x <= y)
+
+// // Bitwise OR
+// 	fmt.Println(x | y)
+
+// 	// Comparing the values of x and y.
+// 	fmt.Println(x == y)
+
+// // Comparing the values of x and y and returning a boolean value.
+// 	fmt.Println(x >= y)
+
+// }
 package main
 
 import "fmt"
 
 func main(){
 	var(
-
+x int 
+y int
 	)
-	fmt.Println(())
+	x = 7
+	y = 3
+	fmt.Println(x + y)
+	fmt.Println(x % y)
+
+// Checking if x is not equal to y.
+
+	fmt.Println(x != y)
+
+// Comparing the values of x and y and returning a boolean value.
+	fmt.Println(x < y)
+
+	// Comparing the values of x and y and returning a boolean value.
+	fmt.Println(x <= y)
+
+// Bitwise OR
+	fmt.Println(x | y)
+
+	// Comparing the values of x and y.
+	fmt.Println(x == y)
+
+// Comparing the values of x and y and returning a boolean value.
+	fmt.Println(x >= y)
+
 }
