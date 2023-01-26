@@ -143,6 +143,9 @@ import (
 // "fmt"
 // "math/rand"
 // "time"
+func sayHello(name string){
+	fmt.Printf("bonjour je m'apple %v",name)
+}
  func main(){
 	// rand.Seed(time.Now().UnixNano())
 	// fmt.Println(rand.Int())
@@ -185,10 +188,6 @@ import (
 // for pos,value := range Lists{
 // 	fmt.Printf("Postion %d est égal à %d .\n",pos,value)
 // }
-List := [...]int{14,70,40,80,70}
-
-for y,x := range List{
-	fmt.Printf("le nombre %d est l'ordre %d.\n",y,x)
-}
+sayHello("ady")
 
  }
