@@ -28,5 +28,5 @@
   "window.zoomLevel": 1,
   "Lua.telemetry.enable": false,
   "editor.inlineSuggest.enabled": true,
-  "workbench.colorTheme": "Community Material Theme Darker High Contrast"
+  "workbench.colorTheme": "Electron"
 }

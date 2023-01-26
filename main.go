@@ -44,16 +44,28 @@ func main(){
 // 	fmt.Printf("%v comprend  %d jours.\n", key,value)
 
 // }
-w:=func(){
-	fmt.Println("saluuuuut")
-}
-w()
+// w:=func(){
+// fmt.Println("saluuuuut")
+// }
+// w()
+
+// a:=func()string{
+// return "ady"
+// }()
+
+// fmt.Println(a)
+// a,b :=func ()(int, int){
+// 	// fmt.Println("hola")
+// 	return 4,7
+// }()
+// fmt.Println(a)
+// fmt.Println(b)
 }
 
 // The variable x is declared and initialized to 10
 
-func f(){
-	x:= 10 //local
-	fmt.Println(x)
-}
+// func f(){
+// 	x:= 10 //local
+// 	fmt.Println(x)
+// }
 
