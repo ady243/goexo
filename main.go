@@ -11,9 +11,8 @@ var x int
 // 	number = 0
 // fmt.Println(number)
 // }
-func miseAjour(pointerNumber*int){
-*pointerNumber = 80
-
+func miseAj (pointerNum *int){
+	*pointerNum = 10
 }
 func main(){
 	// x = 5
@@ -72,17 +71,14 @@ func main(){
 
 
 
-number := 10
+number := 40
 
-fmt.Println("ok",number)
-fmt.Println("yes",&number)
+point := &number
 
-mypoint := &number
-fmt.Printf("le pointerNumber %d est  %d.\n",mypoint,*mypoint)
-// Updating the value of the variable `number` to 80.
-miseAjour(mypoint)
+fmt.Println(point)
+fmt.Printf("le pointer %v et le nombre %v",point,number)
+miseAj(number)
 fmt.Println(number)
-
 
 }
 
