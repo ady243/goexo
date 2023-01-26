@@ -11,6 +11,10 @@ var x int
 // 	number = 0
 // fmt.Println(number)
 // }
+func miseAjour(pointerNumber*int){
+*pointerNumber = 80
+
+}
 func main(){
 	// x = 5
 	// fmt.Println(x)
@@ -74,8 +78,10 @@ fmt.Println("ok",number)
 fmt.Println("yes",&number)
 
 mypoint := &number
-fmt.Printf("le pointer %d est  %d",mypoint,*mypoint)
-
+fmt.Printf("le pointerNumber %d est  %d.\n",mypoint,*mypoint)
+// Updating the value of the variable `number` to 80.
+miseAjour(mypoint)
+fmt.Println(number)
 
 
 }
