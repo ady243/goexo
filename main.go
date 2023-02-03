@@ -11,9 +11,9 @@ var x int
 // 	number = 0
 // fmt.Println(number)
 // }
-func miseAj (pointerNum *int){
-	*pointerNum = 10
-}
+// func miseAj (pointerNum *int){
+// 	*pointerNum = 10
+// }
 func main(){
 	// x = 5
 	// fmt.Println(x)
@@ -71,14 +71,15 @@ func main(){
 
 
 
-number := 40
+// number := 40
 
-point := &number
+// point := &number
 
-fmt.Println(point)
-fmt.Printf("le pointer %v et le nombre %v",point,number)
-miseAj(number)
-fmt.Println(number)
+// fmt.Println(point)
+// fmt.Printf("le pointer %v et le nombre %v .\n",point,number)
+
+// miseAj(point)
+// fmt.Println("le pointer et le nombre ",point,number)
 
 }
 
